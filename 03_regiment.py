@@ -44,7 +44,7 @@ grouped_reg_comp = regiment.groupby(['regiment', 'company'])
 # print(grouped_reg_comp.mean(numeric_only=True))
 
 # Step 10. What is the number of observations in each regiment and company
-# print(grouped_reg_comp.size())
+print(grouped_reg_comp.size())
 
 # Step 11. Iterate over a group and print the name and the whole data from the regiment
 # for name, group in regiment.groupby('regiment'):
